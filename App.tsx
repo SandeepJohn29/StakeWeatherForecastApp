@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
+import HomeScreen from './src/screens/HomeScreen';
+import { store } from './src/store';
+import { useEffect } from 'react';
+import { loadSavedCities } from './src/store/weather/weatherSlice';
+import React from 'react';
+import { initializeAnalytics } from './src/utils/analytics';
 
 export default function App() {
+  useEffect(() => {
+    store.dispatch(loadSavedCities());
+    initializeAnalytics();
+  }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <HomeScreen />
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

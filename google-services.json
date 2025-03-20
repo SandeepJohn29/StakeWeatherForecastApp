@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620951895103",
+    "project_id": "stakeweatherapp",
+    "storage_bucket": "stakeweatherapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620951895103:android:900171c119ede5eafe0c8a",
+        "android_client_info": {
+          "package_name": "com.anonymous.StakeWeatherForecastApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_1fb6f_FmgUg1e4tiDYGrws8DVp56_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
