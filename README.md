@@ -9,6 +9,7 @@ This is a **React Native** application that provides a **10-day weather forecast
 - **Redux Toolkit** for state management.
 - **Expo & React Native** for seamless cross-platform support.
 - **Firebase Analytics** integration for tracking events.
+- **Mixpanel Analytics** for event tracking.
 - **Persistent storage** using AsyncStorage to save favorite cities.
 
 ## Tech Stack
@@ -18,6 +19,8 @@ This is a **React Native** application that provides a **10-day weather forecast
 - **Axios** for API requests
 - **WeatherAPI** for weather data
 - **Firebase Analytics** for event tracking
+- **Mixpanel Analytics** for event tracking
+- **Jest for unit testng
 
 ## Installation
 
