@@ -72,8 +72,7 @@ This is a **React Native** application that provides a **10-day weather forecast
  ┣ 📂 components   # Reusable UI components
  ┣ 📂 screens      # App screens
  ┣ 📂 store        # Redux slices & store setup
- ┣ 📂 utils        # Helper functions
- ┗ 📂 assets       # Images, icons, etc.
+ ┗ 📂 utils        # Helper functions
 ```
 
 ## Contributing
